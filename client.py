@@ -1,6 +1,7 @@
 from twisted.internet.protocol import Protocol, Factory, ClientFactory
 from twisted.internet import reactor
 from twisted.internet.endpoints import TCP4ServerEndpoint, TCP4ClientEndpoint
+import encodings.idna
 import argparse
 import socks5
 import struct
